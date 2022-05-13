@@ -6,10 +6,10 @@ Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-xlate'
   spec.version       = Fastlane::Xlate::VERSION
   spec.author        = 'David Weekly'
-  spec.email         = 'david@weekly.org'
+  spec.email         = 'david@xlate.dev'
 
   spec.summary       = 'Automatically translate missing strings in your project!'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-xlate"
+  spec.homepage      = "https://github.com/xlate-dev/fastlane-plugin-xlate"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
